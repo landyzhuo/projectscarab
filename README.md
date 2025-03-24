@@ -13,7 +13,7 @@ Project Scarab is an engaging encyclopedia and resource hub dedicated to Egyptia
 - 📝 <a href="https://github.com/landyzhuo/projectscarab/blob/main/README.md#-license">License</a>
 - 🤝 <a href="https://github.com/landyzhuo/projectscarab/blob/main/README.md#-contributing">Contributing</a>
 - ✉️ <a href="https://github.com/landyzhuo/projectscarab/blob/main/README.md#-contacts">Contacts</a>
-- 🙋🏻‍♂️ <a href="https://github.com/landyzhuo/projectscarab/blob/main/README.md#-list-of-contributors">List of Contributors</a>
+- 🙋🏻‍♂️ <a href="https://github.com/landyzhuo/projectscarab/blob/main/README.md#%EF%B8%8F-list-of-contributors">List of Contributors</a>
 
 ## 🐪 Why Egyptian Mythology?
 
