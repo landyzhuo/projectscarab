@@ -1,6 +1,6 @@
 # 🪲 Project Scarab: A Portal to the Legends of Ancient Egypt
 
-<img src="media/project-scarab.png" alt="Project Scarab Logo" height="30%" width="30%">
+<img src="media/project-scarab.png" alt="Project Scarab Logo" height="45%" width="45%">
 
 ## 🚀 Introduction
 
