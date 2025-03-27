@@ -1,1 +1,385 @@
-<h1>Hi!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Scarab - Egyptian Mythology</title>
+    <style>
+        /* Global Styles */
+        :root {
+            --gold: #FFB300;
+            --blue: #00BFFF;
+            --dark-green: #003300;
+            --sand: #F5DEB3;
+            --black: #000000;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: var(--sand);
+            color: var(--dark-green);
+            line-height: 1.6;
+        }
+        
+        /* Header & Navigation */
+        header {
+            background: linear-gradient(to right, var(--dark-green), var(--black);
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        .logo {
+            color: var(--gold);
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            background-color: var(--gold);
+            color: var(--dark-green);
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        
+        section {
+            padding: 2rem 0;
+            border-bottom: 2px dashed var(--blue);
+        }
+        
+        h1, h2, h3 {
+            color: var(--dark-green);
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: var(--gold);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid var(--gold);
+            padding-bottom: 0.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            margin-bottom: 2rem;
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            padding: 2rem;
+        }
+        
+        .hero h1 {
+            color: white;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* Cards */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            flex: 1 1 300px;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .card-content {
+            padding: 1.5rem;
+        }
+        
+        .card h3 {
+            color: var(--blue);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark-green);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .social-links {
+            margin: 1rem 0;
+        }
+        
+        .social-links a {
+            color: var(--gold);
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="logo">Project Scarab</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#stories">Stories</a></li>
+                <li><a href="#deities">Deities</a></li>
+                <li><a href="#history">Egyptian History</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Ancient Egypt</h1>
+            <p>Explore the mysteries of pharaohs, gods, and the afterlife</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Stories Section -->
+        <section id="stories">
+            <h2>Mythological Stories</h2>
+            <p>Discover the fascinating tales from ancient Egyptian mythology that have survived for millennia.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Osiris+Myth" alt="Osiris Myth">
+                    <div class="card-content">
+                        <h3>The Story of Osiris</h3>
+                        <p>Learn about the murder and resurrection of the god Osiris, one of the most important myths in Egyptian religion.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Ra+Journey" alt="Ra's Journey">
+                    <div class="card-content">
+                        <h3>Ra's Journey Through the Underworld</h3>
+                        <p>Follow the sun god Ra as he travels through the twelve hours of the night in his solar barque.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Horus+Set" alt="Horus and Set">
+                    <div class="card-content">
+                        <h3>The Contendings of Horus and Set</h3>
+                        <p>The epic battle between Horus and Set for the throne of Egypt, filled with trickery and divine intervention.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deities Section -->
+        <section id="deities">
+            <h2>Major Egyptian Deities</h2>
+            <p>The ancient Egyptians worshipped hundreds of gods and goddesses. Here are some of the most important.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Ra" alt="Ra">
+                    <div class="card-content">
+                        <h3>Ra</h3>
+                        <p>The sun god and creator deity, often depicted with a solar disk on his head.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Isis" alt="Isis">
+                    <div class="card-content">
+                        <h3>Isis</h3>
+                        <p>The mother goddess, known for her magic and as the wife of Osiris and mother of Horus.</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200?text=Anubis" alt="Anubis">
+                    <div class="card-content">
+                        <h3>Anubis</h3>
+                        <p>The jackal-headed god of mummification and the afterlife.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="history">
+            <h2>Egyptian History</h2>
+            <p>Ancient Egypt was one of the world's greatest civilizations, lasting for over 3,000 years.</p>
+            
+            <h3>Timeline of Ancient Egypt</h3>
+            <ul>
+                <li><strong>Predynastic Period (c. 6000-3150 BCE):</strong> Early settlements along the Nile</li>
+                <li><strong>Early Dynastic Period (3150-2686 BCE):</strong> Unification of Upper and Lower Egypt</li>
+                <li><strong>Old Kingdom (2686-2181 BCE):</strong> Age of pyramid builders</li>
+                <li><strong>Middle Kingdom (2055-1650 BCE):</strong> Renaissance of Egyptian culture</li>
+                <li><strong>New Kingdom (1550-1069 BCE):</strong> Empire period with famous pharaohs like Tutankhamun and Ramses II</li>
+            </ul>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Project Scarab</h2>
+            <p>Project Scarab is dedicated to preserving and sharing knowledge about ancient Egyptian mythology and culture.</p>
+            <p>Our team of Egyptologists and historians work to bring accurate, engaging content to enthusiasts around the world.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Project Scarab. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="Twitter">TW</a>
+            <a href="#" aria-label="Instagram">IG</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+
+        // Simple animation for cards when they come into view
+        const cards = document.querySelectorAll('.card');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        cards.forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
